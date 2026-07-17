@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NeurIPS 2026 Workshop on Evaluation of Interactive Agents in Atlanta, Georgia.">
+    <title>Evaluation of Interactive Agents @ NeurIPS 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="top-block" id="top">
+      <div class="site-header">
+        <a class="wordmark" href="#top">NeurIPS 2026 Workshop</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#call">Call for papers</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#organizers">Organizers</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="hero-main">
+          <p class="eyebrow">Workshop on</p>
+          <h1>Evaluation of<br>Interactive Agents</h1>
+          <!-- <p class="tagline">Evaluating agents that interact with people, tools, environments, and each other over time.</p> -->
+        </div>
+        <aside class="hero-note" aria-label="Event details">
+          <p class="conference">NeurIPS 2026</p>
+          <p><strong>December 12 or 13 (TBD), 2026</strong><br>Atlanta, Georgia</p>
+          <!-- <p>Atlanta, Georgia</p> -->
+        </aside>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="notice" role="note">
+        <strong>Under construction:</strong> call for papers and OpenReview submission site coming soon!
+      </div>
+
+      <section class="section about" id="about">
+        <h2>Why this workshop?</h2>
+        <div class="body-copy">
+          <p>The rapid transition from large language models (LLMs) as single-turn assistants to interactive agents has created an urgent need for new evaluation methodologies. LLMs are increasingly deployed in high-impact settings such as education, counseling, negotiation, research assistance, and software development, where success depends not only on generating a correct response, but on sustaining effective interactions over extended trajectories.</p>
+          <!-- <p>Modern agents must infer user goals, ask clarifying questions, maintain context over many turns, use tools, recover from mistakes, and collaborate with users and other agents. The rise of agentic AI systems and multi-agent workflows has made these evaluation challenges particularly timely. Traditional static benchmarks can miss whether an agent adapts over time, asks useful clarifying questions, recovers from earlier errors, or remains reliable across repeated trials.</p> -->
+          <p>Evaluating interactive agents directly with real users can be slow, expensive, difficult to reproduce, and hard to scale in expert domains. This has led to growing use of automatic evaluation methods, ranging from rubric-based grading to user simulators, where an LLM simulates user behavior to support evaluation, training, and stress testing. However, many issues with these approaches remain: for example, user simulators may fail to preserve latent user states, reflect diverse human attributes, represent realistic goals, or match the interaction style of real users.</p>
+          <p>In light of these challenges, this workshop will focus on methods for developing more rigorous, scalable, and scientific evaluation methods for interactive agents.</p>
+        </div>
+      </section>
+
+      <section class="section topics" aria-labelledby="topics-title">
+        <h2 id="topics-title">Topics</h2>
+        <p class="section-intro">We invite contributions on topics including, but not limited to:</p>
+        <ul class="topic-list">
+          <li>Evaluation protocols for multi-turn assistants, tool-using agents, computer-use agents, collaborative agents, and user-facing systems</li>
+          <li>Trajectory-level evaluation, including transcripts, tool calls, intermediate states, final task outcomes, latency, cost, and other operational metrics</li>
+          <li>Realistic simulation of users, environments, and interaction partners</li>
+          <li>Validation of user simulators as proxies for human behavior and as stress tests for deployed agents</li>
+          <li>Grader design, including deterministic checks, model-based rubrics, human evaluation, and calibration between them</li>
+          <li>Benchmarks for long-horizon interaction, memory, adaptation, error recovery, and reliability across repeated trials</li>
+          <li>Learning from interaction data, production failures, user feedback, and human preference signals</li>
+          <li>Safety, fairness, privacy, and ethical considerations in evaluating interactive agents and simulated users</li>
+        </ul>
+      </section>
+
+      <section class="section" id="call">
+        <div class="call-layout">
+          <div>
+            <h2>Call for papers</h2>
+            <div class="body-copy">
+              <p>We solicit non-archival submissions using the official NeurIPS 2026 LaTeX style: up to 9 pages for full papers and 4 for short papers, excluding references and appendices. We welcome early-stage work, as well as conference papers that have already been accepted at the NeurIPS main conference or in other venues.</p>
+              <p>Accepted work will primarily be presented as posters, with a select number of papers receiving spotlight talks, as well as a best paper award. The official OpenReview submission site will be available soon.</p>
+              <!-- <p class="small-note">We will publish the agenda, talk titles, speaker status, submission archival status, and OpenReview links on the workshop website before NeurIPS site publication deadlines.</p> -->
+            </div>
+          </div>
+          <aside class="dates" aria-label="Important dates">
+            <h3>Important dates</h3>
+            <dl>
+              <div>
+                <dt>Submission deadline</dt>
+                <dd>August 29, 2026<br><span>Anywhere on Earth</span></dd>
+              </div>
+              <div>
+                <dt>Decision notification</dt>
+                <dd>September 29, 2026<br><span>Anywhere on Earth</span></dd>
+              </div>
+              <div>
+                <dt>Workshop</dt>
+                <dd>December 12 or 13 (TBD), 2026<br><span>Atlanta, Georgia</span></dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="speakers">
+        <h2>Invited speakers</h2>
+        <div class="people-grid speakers-grid">
+          <article><h3>Jacob Andreas</h3><p>MIT</p></article>
+          <article><h3>Asli Celikyilmaz</h3><p>Microsoft</p></article>
+          <article><h3>Morteza Dehghani</h3><p>USC</p></article>
+          <article><h3>Seraphina Goldfarb-Tarrant</h3><p>Cohere</p></article>
+          <article><h3>Sanmi Koyejo</h3><p>Stanford</p></article>
+          <article><h3>Karthik Narasimhan</h3><p>Princeton</p></article>
+          <article><h3>Heinrich Peters</h3><p>Apple</p></article>
+          <article><h3>Lianhui Qin</h3><p>UC San Diego</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="schedule">
+        <h2>Schedule</h2>
+        <div class="schedule-table" role="table" aria-label="Workshop schedule">
+          <div class="schedule-row schedule-header" role="row">
+            <div role="columnheader">Time</div>
+            <div role="columnheader">Session</div>
+          </div>
+          <div class="schedule-row" role="row"><div role="cell">8:00–8:10</div><div role="cell">Opening remarks</div></div>
+          <div class="schedule-row" role="row"><div role="cell">8:10–9:10</div><div role="cell">Invited talks</div></div>
+          <div class="schedule-row" role="row"><div role="cell">9:10–10:00</div><div role="cell">Oral session</div></div>
+          <div class="schedule-row highlight" role="row"><div role="cell">10:00–11:00</div><div role="cell">Poster and demo session</div></div>
+          <div class="schedule-row" role="row"><div role="cell">11:00–12:00</div><div role="cell">Invited talks</div></div>
+          <div class="schedule-row highlight" role="row"><div role="cell">12:00–1:00</div><div role="cell">Lunch and mentoring tables</div></div>
+          <div class="schedule-row" role="row"><div role="cell">1:00–2:00</div><div role="cell">Invited talks</div></div>
+          <div class="schedule-row highlight" role="row"><div role="cell">2:00–3:00</div><div role="cell">Poster and demo session</div></div>
+          <div class="schedule-row" role="row"><div role="cell">3:00–3:15</div><div role="cell">Break</div></div>
+          <div class="schedule-row" role="row"><div role="cell">3:15–4:15</div><div role="cell">Invited talks</div></div>
+          <div class="schedule-row" role="row"><div role="cell">4:15–4:45</div><div role="cell">Panel</div></div>
+          <div class="schedule-row" role="row"><div role="cell">4:45–5:00</div><div role="cell">Awards and closing</div></div>
+        </div>
+      </section>
+
+      <section class="section" id="organizers">
+        <h2>Organizers</h2>
+        <div class="organizer-grid">
+          <article>
+            <img src="assets/organizers/yao-dou.jpg" alt="Yao Dou" loading="lazy">
+            <h3><a href="https://yao-dou.github.io/">Yao Dou</a></h3>
+            <p>Georgia Tech</p>
+          </article>
+          <article>
+            <img src="assets/organizers/siyan-li.jpg" alt="Siyan Li" loading="lazy">
+            <h3><a href="https://siyan-sylvia-li.com/">Siyan Li</a></h3>
+            <p>Columbia University</p>
+          </article>
+          <article>
+            <img src="assets/organizers/marwa-abdulhai.jpg" alt="Marwa Abdulhai" loading="lazy">
+            <h3><a href="https://abdulhaim.github.io/">Marwa Abdulhai</a></h3>
+            <p>Princeton University</p>
+          </article>
+          <article>
+            <img src="assets/organizers/nicholas-tomlin.jpg" alt="Nicholas Tomlin" loading="lazy">
+            <h3><a href="https://nickatomlin.github.io/">Nicholas Tomlin</a></h3>
+            <p>TTIC</p>
+          </article>
+          <article>
+            <img src="assets/organizers/michel-galley.jpg" alt="Michel Galley" loading="lazy">
+            <h3><a href="https://www.microsoft.com/en-us/research/people/mgalley/">Michel Galley</a></h3>
+            <p>Microsoft Research</p>
+          </article>
+          <article>
+            <img src="assets/organizers/jacob-eisenstein.jpg" alt="Jacob Eisenstein" loading="lazy">
+            <h3><a href="https://jacobeisenstein.github.io/">Jacob Eisenstein</a></h3>
+            <p>Google DeepMind</p>
+          </article>
+          <article>
+            <img src="assets/organizers/alan-ritter.jpeg" alt="Alan Ritter" loading="lazy">
+            <h3><a href="https://aritter.github.io/">Alan Ritter</a></h3>
+            <p>Georgia Tech</p>
+          </article>
+          <article>
+            <img src="assets/organizers/wei-xu.jpg" alt="Wei Xu" loading="lazy">
+            <h3><a href="https://cocoxu.github.io/">Wei Xu</a></h3>
+            <p>Georgia Tech</p>
+          </article>
+        </div>
+        <div class="contact-strip">
+          <p><strong>Questions?</strong> Contact the workshop chairs:</p>
+          <p><a href="mailto:douy@gatech.edu">douy@gatech.edu</a> · <a href="mailto:siyan.li@columbia.edu">siyan.li@columbia.edu</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p>Workshop on Evaluation of Interactive Agents</p>
+          <p>NeurIPS 2026 · Atlanta, Georgia</p>
+        </div>
+        <img class="whale-shark" src="assets/whale-shark.png" alt="Whale shark illustration">
+      </div>
+    </footer>
+  </body>
+</html>
