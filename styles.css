@@ -156,6 +156,16 @@ main,
   border-radius: 4px;
 }
 
+.notice-open {
+  background: var(--blue-soft);
+  border-left: 5px solid var(--navy);
+}
+
+.notice-open a {
+  color: var(--navy);
+  font-weight: bold;
+}
+
 .section {
   padding: 76px 0;
   scroll-margin-top: 20px;
@@ -210,6 +220,18 @@ h2 {
 
 .topic-list li { padding-left: 6px; }
 .topic-list li::marker { color: var(--navy); }
+
+.cfp-list {
+  display: grid;
+  gap: 15px;
+  margin: 0;
+  padding-left: 22px;
+  font-size: 1.06rem;
+}
+
+.cfp-list li { padding-left: 6px; }
+.cfp-list li::marker { color: var(--navy); }
+.cfp-list strong { color: var(--navy); }
 
 .call-layout {
   display: grid;
