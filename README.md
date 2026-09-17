@@ -8,6 +8,7 @@ A small static website for the NeurIPS 2026 Workshop on Evaluation of Interactiv
 - `styles.css` contains the colors, type, layout, and mobile styles.
 - `script.js` contains the mobile navigation behavior.
 - `assets/organizers/` contains local copies of the organizer headshots.
+- `assets/speakers/` contains local speaker portraits and a source record in its `README.md`.
 
 To preview the site locally, open `index.html` in a browser or serve this folder with any static file server.
 

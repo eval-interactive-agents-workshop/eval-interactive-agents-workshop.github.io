@@ -273,28 +273,33 @@ h2 {
 .dates dd { margin: 0; }
 .dates dd span { color: var(--muted); font-size: 0.85rem; }
 
-.people-grid {
+.speakers-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
+  gap: 34px 22px;
 }
 
-.people-grid article {
-  min-height: 118px;
-  padding: 22px;
-  background: var(--blue-soft);
-  border-radius: 4px;
-}
+.speakers-grid article { min-width: 0; }
 
-.people-grid h3,
+.speakers-grid h3,
 .organizer-grid h3 {
   margin: 0 0 6px;
   font-size: 1.1rem;
   line-height: 1.2;
 }
 
-.people-grid p,
+.speakers-grid p,
 .organizer-grid p { margin: 0; color: var(--muted); }
+
+.speakers-note {
+  margin: 32px 0 0;
+  padding: 16px 20px;
+  background: var(--blue-soft);
+  border-left: 4px solid var(--navy);
+  border-radius: 4px;
+}
+
+.speakers-note strong { color: var(--navy); }
 
 .schedule-table {
   overflow: hidden;
@@ -330,8 +335,10 @@ h2 {
 
 .organizer-grid article { min-width: 0; }
 
+.speakers-grid img,
 .organizer-grid img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   display: block;
   margin-bottom: 14px;
@@ -426,7 +433,7 @@ h2 {
   .about { gap: 18px; }
   .about h2 { position: static; }
 
-  .people-grid,
+  .speakers-grid,
   .organizer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -463,8 +470,9 @@ h2 {
   .call-layout { gap: 38px; }
   .dates dl div { grid-template-columns: 1fr; gap: 3px; }
 
-  .people-grid { grid-template-columns: 1fr; }
+  .speakers-grid,
   .organizer-grid { gap: 28px 14px; }
+  .speakers-grid h3 { min-height: 2.4em; }
 
   .schedule-row { grid-template-columns: 105px 1fr; }
   .schedule-row > div { padding: 11px; }
