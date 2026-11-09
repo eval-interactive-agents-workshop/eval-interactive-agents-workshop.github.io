@@ -149,23 +149,6 @@ main,
   letter-spacing: -0.04em;
 }
 
-.notice {
-  margin-top: 18px;
-  padding: 16px 20px;
-  background: var(--orange);
-  border-radius: 4px;
-}
-
-.notice-open {
-  background: var(--blue-soft);
-  border-left: 5px solid var(--navy);
-}
-
-.notice-open a {
-  color: var(--navy);
-  font-weight: bold;
-}
-
 .section {
   padding: 76px 0;
   scroll-margin-top: 20px;
