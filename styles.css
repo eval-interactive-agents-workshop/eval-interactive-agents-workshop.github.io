@@ -311,7 +311,10 @@ h2 {
   font-variant-numeric: tabular-nums;
 }
 
-.schedule-table .lunch-break { background: #faf2e4; }
+.schedule-table .lunch-break {
+  color: #6e6e6e;
+  background: #f4f4f4;
+}
 
 .organizer-grid {
   display: grid;
