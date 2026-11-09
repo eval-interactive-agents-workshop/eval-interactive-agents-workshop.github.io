@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="NeurIPS 2026 Workshop on Evaluation of Interactive Agents in Atlanta, Georgia.">
     <title>Evaluation of Interactive Agents @ NeurIPS 2026</title>
-    <link rel="stylesheet" href="styles.css?v=20261108">
+    <link rel="stylesheet" href="styles.css?v=20261108-2">
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -144,25 +144,68 @@
 
       <section class="section" id="schedule">
         <h2 id="schedule-title">Tentative Schedule</h2>
-        <p class="section-intro">Each invited talk includes a 30-minute presentation followed by 5 minutes for Q&amp;A.</p>
-        <div class="schedule-table" role="table" aria-labelledby="schedule-title">
-          <div class="schedule-row schedule-header" role="row">
-            <div role="columnheader">Time (ET)</div>
-            <div role="columnheader">Session</div>
-          </div>
-          <div class="schedule-row" role="row"><div role="cell">8:00–8:10 AM</div><div role="cell">Opening remarks</div></div>
-          <div class="schedule-row" role="row"><div role="cell">8:10–8:45 AM</div><div role="cell">Invited talk 1</div></div>
-          <div class="schedule-row" role="row"><div role="cell">8:45–9:20 AM</div><div role="cell">Invited talk 2</div></div>
-          <div class="schedule-row" role="row"><div role="cell">9:20–10:20 AM</div><div role="cell">Contributed oral presentations (4 talks, each with 12 minutes to present and 3 minutes for Q&amp;A)</div></div>
-          <div class="schedule-row highlight" role="row"><div role="cell">10:20–11:35 AM</div><div role="cell">Poster session I and coffee break</div></div>
-          <div class="schedule-row" role="row"><div role="cell">11:35 AM–12:10 PM</div><div role="cell">Invited talk 3</div></div>
-          <div class="schedule-row highlight" role="row"><div role="cell">12:10–1:40 PM</div><div role="cell">Lunch break</div></div>
-          <div class="schedule-row" role="row"><div role="cell">1:40–2:15 PM</div><div role="cell">Invited talk 4</div></div>
-          <div class="schedule-row highlight" role="row"><div role="cell">2:15–3:30 PM</div><div role="cell">Poster session II and coffee break</div></div>
-          <div class="schedule-row" role="row"><div role="cell">3:30–4:05 PM</div><div role="cell">Invited talk 5</div></div>
-          <div class="schedule-row" role="row"><div role="cell">4:05–4:45 PM</div><div role="cell">Panel</div></div>
-          <div class="schedule-row" role="row"><div role="cell">4:45–5:00 PM</div><div role="cell">Awards and closing remarks</div></div>
+        <div class="schedule-formats" id="schedule-formats">
+          <p>Each invited talk includes a 30-minute presentation followed by 5 minutes for Q&amp;A.</p>
+          <p>The contributed oral session features four talks, each with 12 minutes to present and 3 minutes for Q&amp;A.</p>
         </div>
+        <table class="schedule-table" aria-labelledby="schedule-title" aria-describedby="schedule-formats">
+          <thead>
+            <tr>
+              <th scope="col">Time (ET)</th>
+              <th scope="col">Session</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:00–8:10 AM</td>
+              <td>Opening remarks</td>
+            </tr>
+            <tr>
+              <td>8:10–8:45 AM</td>
+              <td>Invited talk 1</td>
+            </tr>
+            <tr>
+              <td>8:45–9:20 AM</td>
+              <td>Invited talk 2</td>
+            </tr>
+            <tr>
+              <td>9:20–10:20 AM</td>
+              <td>Contributed oral presentations</td>
+            </tr>
+            <tr>
+              <td>10:20–11:35 AM</td>
+              <td>Poster session I and coffee break</td>
+            </tr>
+            <tr>
+              <td>11:35 AM–12:10 PM</td>
+              <td>Invited talk 3</td>
+            </tr>
+            <tr class="lunch-break">
+              <td>12:10–1:40 PM</td>
+              <td>Lunch break</td>
+            </tr>
+            <tr>
+              <td>1:40–2:15 PM</td>
+              <td>Invited talk 4</td>
+            </tr>
+            <tr>
+              <td>2:15–3:30 PM</td>
+              <td>Poster session II and coffee break</td>
+            </tr>
+            <tr>
+              <td>3:30–4:05 PM</td>
+              <td>Invited talk 5</td>
+            </tr>
+            <tr>
+              <td>4:05–4:45 PM</td>
+              <td>Panel</td>
+            </tr>
+            <tr>
+              <td>4:45–5:00 PM</td>
+              <td>Awards and closing remarks</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section class="section" id="organizers">
