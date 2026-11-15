@@ -259,8 +259,8 @@ h2 {
 .speakers-grid {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(9.5rem, 1fr);
-  gap: 22px;
+  grid-auto-columns: minmax(8.5rem, 1fr);
+  gap: clamp(14px, 1.7vw, 22px);
   overflow-x: auto;
 }
 
