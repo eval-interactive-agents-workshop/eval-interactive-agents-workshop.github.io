@@ -418,7 +418,7 @@ h2 {
   outline-offset: 3px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
   .site-header { flex-wrap: wrap; }
   .menu-button { display: block; }
 
@@ -434,6 +434,9 @@ h2 {
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: 8px 0; }
 
+}
+
+@media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; }
   .hero-main {
     /* min-height: 470px; */
